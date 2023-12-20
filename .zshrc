@@ -105,3 +105,5 @@ export GH_TOKEN="$(/opt/homebrew/bin/op item get GitHub --fields ghp_default)"
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 eval "$(direnv hook zsh)"
+
+source $HOMEBREW_PREFIX/opt/zsh-fast-syntax-highlighting/share/zsh-fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
